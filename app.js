@@ -14,7 +14,6 @@ var compiler = webpack(config);
 var index = require('./routes/index');
 
 var app = express();
-app.io = index.io;
 
 // view engine setup
 app.set( 'views', path.join(__dirname, 'views'));
