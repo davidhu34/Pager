@@ -1,9 +1,5 @@
 var express = require('express');
 var router = express.Router();
-//var authenticated = require('connect-ensure-login').ensureLoggedIn('/login');
-//var mongoose = require('docooment');
-var mongoose = require('mongoose');
-var Room = mongoose.model('Room');
 var io = require('socket.io')();
 
 
